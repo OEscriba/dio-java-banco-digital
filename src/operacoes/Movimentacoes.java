@@ -1,4 +1,10 @@
-public class Main {
+package operacoes;
+import cliente.Cliente;
+import conta.Conta;
+import conta.ContaCorrente;
+import conta.ContaPoupanca;
+
+public class Movimentacoes {
     public static void main(String[] args) {
         Cliente fernando = new Cliente();
         fernando.setNome("Fernando");
